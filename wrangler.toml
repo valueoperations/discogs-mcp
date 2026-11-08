@@ -27,7 +27,7 @@ ALLOWED_DISCOGS_USER_ID = "912680"
 # the right default for self-hosters and local dev. When set, the two Access
 # service-token secrets RELAY_ACCESS_CLIENT_ID / RELAY_ACCESS_CLIENT_SECRET
 # must be set too, or the relay is treated as off.
-DISCOGS_RELAY_ORIGIN = "https://api.discogs.com/users/skhn"
+DISCOGS_RELAY_ORIGIN = "https://discogs-relay.valops.de"
 
 # Durable Object for coordinated Discogs API rate limiting
 [durable_objects]
