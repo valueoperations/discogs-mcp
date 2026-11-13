@@ -19,7 +19,7 @@ crons = ["23 1,7,13,19 * * *"]
 # Accepts a single ID or a comma-separated list (e.g. "123,456,789").
 # Empty = no allowlist (open; default for local dev and self-hosters).
 [vars]
-ALLOWED_DISCOGS_USER_ID = "912680"
+ALLOWED_DISCOGS_USER_ID = "912680,32984072"
 # Optional egress relay for Discogs API calls. Discogs throttles per source IP
 # and Workers share Cloudflare's egress IPs, so the hosted instance routes its
 # calls through a Cloudflare Tunnel to a machine with an IP of its own (see
